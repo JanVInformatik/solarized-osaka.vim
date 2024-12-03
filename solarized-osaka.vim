@@ -28,19 +28,19 @@ let s:colors = {
 \ }
 
 " Highlight groups
-highlight Normal        guifg=s:colors['base0']  guibg=s:colors['base03']
-highlight Comment       guifg=s:colors['base01'] gui=italic
-highlight Constant      guifg=s:colors['cyan']
-highlight String        guifg=s:colors['green']
-highlight Function      guifg=s:colors['blue']
-highlight Statement     guifg=s:colors['magenta']
-highlight Type          guifg=s:colors['yellow']
-highlight Error         guifg=s:colors['red']    guibg=s:colors['base03']
-highlight Visual        guibg=s:colors['base02']
-highlight Search        guifg=s:colors['base1']  guibg=s:colors['base02']
-highlight LineNr        guifg=s:colors['base01']
-highlight CursorLineNr  guifg=s:colors['orange']
-highlight VertSplit     guifg=s:colors['base02'] guibg=s:colors['base02']
-highlight StatusLine    guifg=s:colors['base0']  guibg=s:colors['base02']
-highlight StatusLineNC  guifg=s:colors['base01'] guibg=s:colors['base02']
+highlight Normal guifg=#839496 guibg=#002b36
+highlight Comment guifg=#586e75 gui=italic
+highlight Constant guifg=#2aa198
+highlight String guifg=#859900
+highlight Function guifg=#268bd2
+highlight Statement guifg=#d33682
+highlight Type guifg=#b58900
+highlight Error guifg=#dc322f guibg=#002b36
+highlight Visual guibg=#073642
+highlight Search guifg=#93a1a1 guibg=#073642
+highlight LineNr guifg=#586e75
+highlight CursorLineNr guifg=#cb4b16
+highlight VertSplit guifg=#073642 guibg=#073642
+highlight StatusLine guifg=#839496 guibg=#073642
+highlight StatusLineNC guifg=#586e75 guibg=#073642
 
