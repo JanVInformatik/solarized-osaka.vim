@@ -1,13 +1,15 @@
 set background=dark
 hi clear
 
+" 'clears' presets by vim
 if exists("syntax_on")
   syntax reset
 endif
 
+" Name to be set in the .vimrc 
 let g:colors_name = "solarized-osaka"
 
-" Define the color palette
+" Define colours:
 let s:colors = {
 \ 'base03': '#002b36',
 \ 'base02': '#073642',
@@ -44,3 +46,15 @@ highlight VertSplit guifg=#073642 guibg=#073642
 highlight StatusLine guifg=#839496 guibg=#073642
 highlight StatusLineNC guifg=#586e75 guibg=#073642
 
+" Make the background transparent
+highlight Normal guibg=NONE
+highlight NonText guibg=NONE
+highlight LineNr guibg=NONE
+highlight StatusLine guibg=NONE
+highlight StatusLineNC guibg=NONE
+highlight VertSplit guibg=NONE
+highlight SignColumn guibg=NONE
+highlight EndOfBuffer guibg=NONE
+
+" Fallback: non-true colour terminals:
+" highlight Normal ctermbg=NONE
